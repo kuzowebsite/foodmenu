@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шинэ Содон Өглөөний Хоолны Цэс</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+        }
+        .icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+            color: #4CAF50;
+        }
+        .menu-item h2 {
+            font-size: 22px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .menu-item p {
+            font-size: 14px;
+            color: #777;
+        }
+        .menu-item p span {
+            font-weight: bold;
+            color: #333;
+        }
+        .benefits {
+            background-color: #e8f5e9;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .benefits h3 {
+            color: #388e3c;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+            color: #555;
+        }
+        .benefits ul li {
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            .menu-item h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Шинэ Содон Өглөөний Хоолны Цэс</h1>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item">
+            <div class="icon">🍚</div>
+            <h2>Эрүүл хоол-Салат Будаа</h2>
+            <p>Орц: <span>Овъёос, Чиа үр, Буталсан жимс, Грек тараг, Хушга, самар, Зөгийн бал</span></p>
+            <p>Калори: <span>350-400 ккал</span></p>
+            <div class="benefits">
+                <h3>Ашиг тус:</h3>
+                <ul>
+                    <li>• Биеийг эрч хүчээр хангах</li>
+                    <li>• Эсийн сэргэлт, амин дэмийн тэнцвэрийг сайжруулах</li>
+                    <li>• Өглөөний эрч хүчийг нэмэгдүүлэх</li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="icon">🐟</div>
+            <h2>Шарсан Хавчуургатай Монгол Загас</h2>
+            <p>Орц: <span>Монгол загас, Өргөст хэмх, Помидор, Хатаасан шош, Сармис, Соус</span></p>
+            <p>Калори: <span>450-500 ккал</span></p>
+            <div class="benefits">
+                <h3>Ашиг тус:</h3>
+                <ul>
+                    <li>• Омега-3 өөх тосны эх үүсвэр</li>
+                    <li>• Уураг, амин дэмээр баялаг</li>
+                    <li>• Арьс, зүрх судасны эрүүл мэндэд тустай</li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="icon">🍲</div>
+            <h2>Монгол Сүү, Мөөгний Шөлтэй Халуун Хоол</h2>
+            <p>Орц: <span>Монгол сүү, Мөөг, Үхрийн мах, Төмс, Лууван</span></p>
+            <p>Калори: <span>350-400 ккал</span></p>
+            <div class="benefits">
+                <h3>Ашиг тус:</h3>
+                <ul>
+                    <li>• Өөх тос, уураг, чихэрлэг амттай</li>
+                    <li>• Шингэн хангамж нэмэгдүүлэх, ургамалын эрүүл амттай хоол</li>
+                    <li>• Хоолны уураг, тэжээллэг чанар өндөр</li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="icon">🍗</div>
+            <h2>Азийн Европын Өглөөний Халуун Шөл</h2>
+            <p>Орц: <span>Шинэхэн тахианы мах, Тахианы шөл, Саримс</span></p>
+            <p>Калори: <span>300-350 ккал</span></p>
+            <div class="benefits">
+                <h3>Ашиг тус:</h3>
+                <ul>
+                    <li>• Тахианы мах нь уураг, төмрөөр баялаг</li>
+                    <li>• Шөл нь уураг, амин дэм агуулсан</li>
+                    <li>• Өглөөний эрч хүчийг өгнө</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
